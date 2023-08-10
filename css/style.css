@@ -59,3 +59,29 @@ nav ul li#nav_contact a{
 nav ul li a:hover{
     background-position: 0 -45px;
 }
+#contents{
+    display: flex;
+}
+#contents #main{
+    width: 570px;
+}
+#contents #sub{
+    width: 230px;
+    padding-left: 40px;
+}
+#news ul{
+    padding-left: 175px;    
+}
+#news ul li{
+    border-bottom: 1px dotted #6c5f45;
+    list-style: none;
+    text-indent: -175px;    
+}
+#news ul li time{
+    width: 175px;
+    font-weight: bold;
+    color: #6c5f45;
+    
+    text-indent: 0px;
+    margin-right: 57px;
+}
