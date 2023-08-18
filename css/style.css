@@ -1,0 +1,49 @@
+@import url(common.css);
+body{
+    background-color: #f3f2e9;
+    color: #5f5039;
+    font-size: 87.5%;
+    line-height: 1.5;
+}
+header, nav, #breadcrumb,
+#contents, footer{
+    width: 840px;
+    margin: 0px auto;
+}
+header h1{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    height: 50px;
+    width: 840px;
+    margin: 0px auto;
+    padding: 0px;
+} 
+nav ul li{
+    list-style: none;
+    width: 210px;
+}
+nav ul li#nav_concept a{
+    background-image: url(../images/nav1.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_plan a{
+    background-image: url(../images/nav2.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_fair a{
+    background-image: url(../images/nav3.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_contact a{
+    background-image: url(../images/nav4.png);
+    background-repeat: no-repeat;
+}
+#concept #nav_concept a,
+#plan #nav_plan a,
+#fair #nav_fair a,
+#contact #nav_contact a,
+nav ul li a:hover{
+    background-position: 0 -45px;
+}
