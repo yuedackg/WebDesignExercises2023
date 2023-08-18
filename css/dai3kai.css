@@ -1,0 +1,83 @@
+/* 全体の色の設定 */
+body{
+    /* 基本背景色 */
+    background-color: #f3f2e9;
+    /* 文字の色 */
+    color: #5f5039;
+    font-size: 87.5%;
+    line-height: 1.5;
+}
+/*
+ body内の各要素の大きさ設定
+横幅は840px、上下の余白は０ 
+*/
+header, nav, #breadcrumb,
+#contents, footer{
+    width: 840px;
+    margin: 0px auto;
+}
+/* ヘッダー（一番上）を中央にする */
+header h1{
+    text-align: center;
+}
+
+/* ナビゲーションボタンの画像を挿入する */
+nav ul li#nav_concept a{
+    background-image: url(../images/nav1.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_plan a{
+    background-image: url(../images/nav2.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_fair a{
+    background-image: url(../images/nav3.png);
+    background-repeat: no-repeat;
+}
+nav ul li#nav_contact a{
+    background-image: url(../images/nav4.png);
+    background-repeat: no-repeat;
+}
+/* 画像リンク：の大きさ設定 */
+nav ul li a{
+    display: inline-block;
+    height: 45px;
+    width: 280px;
+}
+
+
+#contents{
+    display: flex;
+    margin-top: 70px;
+}
+#contents #main{
+    width: 570px;
+}
+#contents #sub {
+    width: 230px;
+    padding-left: 40px;
+}
+#news ul{
+    padding: 0px;
+}
+#news ul li {
+    border-bottom: 1px dotted #6c5f45;
+    list-style: none;
+    padding: 20px 0px 20px 175px;
+}
+#news ul li time{
+    font-weight: bold;
+    color: #6c5f45;
+    text-indent: -175px;
+    display: inline-block;
+}
+#main h1{
+    margin: 0px 0px 30px 0px;
+    padding: 35px 0px 35px 65px;
+    font-size: 156.25%;
+    background-image: url(../images/bg_h1_head.png),
+    url(../images/bg_h1_bottom.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, left bottom;
+
+}
