@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* #news ブロックの箇条書きの内側余白を０にする */
+#news ul {
+    padding: 0;
+}
+
+/*
+    #newsの中のリスト要素（#news ul li）の内側余白を
+    上：20px、下：0px、左：20px、右：175pxに設定する
+ */
+#news ul li {
+    padding: 20px 0px 20px 175px;
+}
+
+/* #news要素の時刻ブロック（#news ul li time）をインライン要素に変更する */
+#news ul li time {
+    display: inline-block;
+}
+
+/* コンセプトページのimage_rightクラスに、左余白を25px、左詰めの設定を行う */
+.image_right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* コンセプトページのimage_rightクラスに右余白25px、左詰めの設定を行う */
+.image_left {
+    float: left;
+    margin-right: 25px;
+}

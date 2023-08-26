@@ -1,5 +1,4 @@
 @import url(common.css);
-
 body{
     background-color: #f3f2e9;
     color: #5f5039;
@@ -53,3 +52,7 @@ nav ul li#nav_contact a{
     height: 45px;
     width: 280px;
 }
+
+@import url(kadai4.css);
+@import url(kadai6.css);
+
