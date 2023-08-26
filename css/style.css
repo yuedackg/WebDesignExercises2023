@@ -1,0 +1,45 @@
+@import url(common.css);
+/* @import url(kadai3.css); */
+body{
+    background-color: #f3f2e9;
+    color: #5f5039;
+    font-size: 87.5%;
+    line-height: 1.5;
+}
+header, nav, #breadcrumb,
+#contents, footer{
+    width: 840px;
+    margin: 0px auto;
+}
+header h1{
+    text-align: center;
+}
+
+nav ul li#nav_concept a{
+    background-image: url(../images/nav1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 45px;
+    width: 280px;
+}
+nav ul li#nav_plan a{
+    background-image: url(../images/nav2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 45px;
+    width: 280px;
+}
+nav ul li#nav_fair a{
+    background-image: url(../images/nav3.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 45px;
+    width: 280px;
+}
+nav ul li#nav_contact a{
+    background-image: url(../images/nav4.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 45px;
+    width: 280px;
+}
