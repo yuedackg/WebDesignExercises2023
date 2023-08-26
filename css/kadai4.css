@@ -1,0 +1,49 @@
+/* #contents要素の子要素を横並びにする */
+#contents{
+    display: flex;
+}
+
+/* #contentsの子要素#mainの幅を570pxに設定する */
+#contents #main{
+    width: 570px;
+}
+
+/*
+    #sub #contentsの子要素#subの幅を230pxに設定し、
+    内側の余白（padding-left）を40pxに設定する
+ */
+#sub
+#contents #sub{
+    width: 230px;
+    padding-left: 40px;
+}
+
+/* #newsの子要素ulの左余白（padding-left）を175pxに設定する */
+#news ul{
+    padding-left: 175px;    
+}
+
+/* #new の箇条書き要素の一つ一つ（ul li）に1ドットの幅の点線を付ける */
+#news ul li{
+    border-bottom: 1px dotted #6c5f45;
+}
+
+/* #newsの箇条書きの点を消去する */
+#news ul li{
+    list-style: none;
+    text-indent: -175px;    
+}
+
+/* #newsの箇条書きテキスト文字のインデントを175pxに設定する */
+#news ul li{
+    text-indent: -175px;    
+}
+
+#news ul li time{
+    width: 175px;
+    font-weight: bold;
+    color: #6c5f45;
+    
+    text-indent: 0px;
+    margin-right: 57px;
+}
